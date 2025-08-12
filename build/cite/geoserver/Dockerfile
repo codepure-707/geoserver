@@ -1,4 +1,4 @@
-FROM tomcat:9.0.96-jdk17-temurin-jammy
+FROM tomcat:9.0.108-jdk17-temurin-jammy
 
 # Set environment variables for Java and GeoServer options
 ENV EXTRA_JAVA_OPTS="-Xms256m -Xmx1g"
